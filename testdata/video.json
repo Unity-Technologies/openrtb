@@ -5,6 +5,7 @@
   "startdelay": 0,
   "minduration": 5,
   "maxduration": 30,
+  "maxseq": 4,
   "maxextended": 30,
   "minbitrate": 300,
   "maxbitrate": 1500,
