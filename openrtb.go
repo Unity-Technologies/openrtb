@@ -457,6 +457,7 @@ const (
 const (
 	AdPosUnknown    = 0
 	AdPosAboveFold  = 1
+	AdPosLocked     = 2 // AdCOM 1.0; OpenRTB 2.5 had deprecated 2
 	AdPosBelowFold  = 3
 	AdPosHeader     = 4
 	AdPosFooter     = 5

@@ -37,6 +37,7 @@ type Video struct {
 	BoxingAllowed   *int              `json:"boxingallowed,omitempty"`  // If exchange publisher has rules preventing letter boxing
 	PodID           string            `json:"podid,omitempty"`          // Pod id unique identifier for video ad pod
 	PodDuration     int               `json:"poddur,omitempty"`         // Pod Duration total amount of time in seconds that advertisers may fill for a video ad pod
+	MaxSequence     int               `json:"maxseq,omitempty"`         // Maximum number of ads that may be served in a dynamic video ad pod
 	PodSequence     PodSequence       `json:"podseq,omitempty"`         // Pod Sequence position of the video ad pod
 	SlotInPod       SlotPositionInPod `json:"slotinpod,omitempty"`      // Slot Position in ad
 	RqdDurs         []int64           `json:"rqddurs,omitempty"`        // Precise acceptable durations for video creatives inseconds.

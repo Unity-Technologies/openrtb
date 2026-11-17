@@ -24,6 +24,7 @@ func TestVideo(t *testing.T) {
 		},
 		MinDuration:    5,
 		MaxDuration:    30,
+		MaxSequence:    4,
 		Protocols:      []int{VideoProtoVAST2, VideoProtoVAST3},
 		W:              640,
 		H:              480,
